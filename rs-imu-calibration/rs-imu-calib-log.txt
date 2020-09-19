@@ -1,0 +1,64 @@
+waiting for realsense device...
+  Device PID:  0B3A
+  Device name:  Intel RealSense D435I
+  Serial number:  843112071106
+  Product Line:  D400
+  Firmware version:  05.12.07.100
+Start interactive mode:
+FOUND GYRO with fps=200
+FOUND ACCEL with fps=63
+-------------------------
+*** Press ESC to Quit ***
+-------------------------
+
+Align to direction:  [ 0. -1.  0.]   Mounting screw pointing down, device facing out
+ Status.collect_data[...................]]                                                
+
+Direction data collected.
+Align to direction:  [1. 0. 0.]   Mounting screw pointing left, device facing out
+ Status.collect_data[...................]]                                                
+
+Direction data collected.
+Align to direction:  [0. 1. 0.]   Mounting screw pointing up, device facing out
+ Status.collect_data[...................]]                                                
+
+Direction data collected.
+Align to direction:  [-1.  0.  0.]   Mounting screw pointing right, device facing out
+ Status.collect_data[...................]]                                                
+
+Direction data collected.
+Align to direction:  [ 0.  0. -1.]   Viewing direction facing down
+ Status.collect_data[...................]]                                                
+
+Direction data collected.
+Align to direction:  [0. 0. 1.]   Viewing direction facing up
+ Status.collect_data[...................]]                                                
+
+Direction data collected.
+Would you like to save the raw data? Enter footer for saving files (accel_<footer>.txt and gyro_<footer>.txt)
+Enter nothing to not save raw data to disk. >2
+
+
+Writing files:
+accel_2.txt
+gyro_2.txt
+[-0.00335899 -0.00016913  0.0006275 ]
+[1000 1000 1000 1000 1000 1000]
+using 6000 measurements.
+[[ 1.0112307   0.01598134  0.02316279]
+ [ 0.00354169  1.0144511   0.03369982]
+ [-0.05876951 -0.00847169  1.02258828]
+ [ 0.01975949  0.0380508   0.006675  ]]
+residuals: [  3.44504522  20.15769754 117.77438101]
+rank: 4
+singular: [443.26762877 428.5316363  422.54802176  77.45731535]
+norm (raw data  ): 9.648593
+norm (fixed data): 9.804803 A good calibration will be near 9.806650
+Would you like to write the results to the camera? (Y/N)Y
+Writing calibration to device.
+  Device PID:  0B3A
+  Device name:  Intel RealSense D435I
+  Serial number:  843112071106
+  Firmware version:  05.12.07.100
+SUCCESS: saved calibration to camera.
+Done.
